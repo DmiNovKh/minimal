@@ -132,3 +132,7 @@ footer form p {
 main p {
     text-align: left; border: 2px;
 }
+.some {
+    text-align: center;
+    color: chartreuse;
+}
