@@ -190,7 +190,7 @@ footer form p {
     padding-bottom: 60px;
 }
 .back_banner_about p {
-    font-family: 'Vollkorn';
+    font-family: 'vollkornregular';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -199,7 +199,7 @@ footer form p {
 
 }
 .back_banner_about a {
-    font-family: 'Vollkorn';
+    font-family: 'vollkornregular';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -214,7 +214,7 @@ footer form p {
     margin-top: 53px;
 }
 .container h2 {
-    font-family: 'Montserrat';
+    font-family: 'montserratregular';
     font-style: normal;
     font-weight: 400;
     font-size: 23px;
@@ -235,7 +235,7 @@ footer form p {
     background-color: rgba(0, 0, 0, 0.09);
 }
 .d_flex h4 {
-    font-family: 'Montserrat';
+    font-family: 'montserratregular';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -247,12 +247,17 @@ footer form p {
 
 }
 .d_flex article p {
-    font-family: 'Vollkorn';
+    font-family: 'vollkornregular';
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
     line-height: 22px;
     text-align: center;
     color: #333333;
-
+    margin-bottom: 74px;
+}
+.d_flex article img {
+    padding: 50px 85px;
+    background: #F5F5F5;
+    margin-bottom: 38px;
 }
