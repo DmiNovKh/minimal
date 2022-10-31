@@ -47,7 +47,8 @@ header {
     align-items: center;
 }
 #navbar {
-    list-style: none; display: flex;
+    list-style: none;
+    display: flex;
 }
 header nav li a {
     font-family: 'montserratregular';
@@ -206,7 +207,6 @@ footer form p {
     background: #F5F5F5;
     padding-top: 79px;
     padding-bottom: 89px;
-
 }
 .bg_section_first h2 {
     font-family: 'montserratregular';
