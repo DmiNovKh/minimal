@@ -43,8 +43,9 @@ header {
 }
 .d_flex {
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 #navbar {
     list-style: none;
@@ -249,10 +250,12 @@ footer form p {
     text-align: center;
     color: #333333;
 }
-.bg_section_first article img {
+.bg_section_first .container img {
     padding: 50px 85px;
     background: #F5F5F5;
     margin-bottom: 38px;
+    max-width: 300px;
+    display: inline-block;
 
 }
 .bg_section_second h3 {
@@ -304,8 +307,12 @@ footer form p {
 .bg_section_second article {
     background: #FFFFFF;
     margin-bottom: 20px;
+    max-width: 300px;
 }
 .bg_section_second article a:hover {
     color: #FFFFFF;
     box-shadow: inset 300px 0 0 0 #47474F;
+}
+.bg_section_first article {
+    max-width: 300px;
 }
