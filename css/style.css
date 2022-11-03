@@ -43,8 +43,9 @@ header {
 }
 .d_flex {
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 #navbar {
     list-style: none;
@@ -301,11 +302,17 @@ footer form p {
     box-shadow: inset 0 0 0 0 #47474F;
     transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
 }
-.bg_section_second article {
+.bg_section_second section {
     background: #FFFFFF;
     margin-bottom: 20px;
 }
-.bg_section_second article a:hover {
+.bg_section_second section a:hover {
     color: #FFFFFF;
     box-shadow: inset 300px 0 0 0 #47474F;
+}
+.bg_section_second article section {
+    max-width: 300px;
+}
+.bg_section_first article {
+    max-width: 300px;
 }
