@@ -127,7 +127,6 @@ footer form p {
     font-size: 17px;
     line-height: 22px;
     text-align: left;
-
     color: #FFFFFF;
 }
 .ftr_frmM {
@@ -255,7 +254,7 @@ footer form p {
     background: #F5F5F5;
     margin-bottom: 38px;
     max-width: 300px;
-    display: inline-block;
+    display: block;
 
 }
 .bg_section_second h3 {
